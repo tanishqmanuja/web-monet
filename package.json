@@ -1,6 +1,6 @@
 {
   "name": "@tanishqmanuja/web-monet",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Android's MD3 Monet color scheme generator",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
