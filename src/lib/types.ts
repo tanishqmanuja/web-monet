@@ -1,4 +1,9 @@
-import type { Color } from "culori";
+interface OklchColor {
+	mode: "oklch";
+	l: number;
+	c: number;
+	h: number;
+}
 
 export type SwatchNames =
 	| "accent1"
@@ -22,7 +27,7 @@ export type ShadeNames =
 	| 900
 	| 1000;
 
-export type CuloriColor = Color;
+export type CuloriColor = OklchColor;
 
 export type ColorSwatch = {
 	[shade in ShadeNames]: CuloriColor;
