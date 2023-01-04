@@ -1,14 +1,15 @@
 {
 	"compilerOptions": {
 		"target": "ESNext",
-		"module": "commonjs",
-		"typeRoots": ["./types", "./node_modules/@types"],
+		"moduleResolution": "Node",
 		"esModuleInterop": true,
 		"forceConsistentCasingInFileNames": true,
 		"strict": true,
 		"skipLibCheck": true,
-		"declaration": true,
-		"declarationDir": "./dist",
-		"outDir": "./dist"
-	}
+		"sourceMap": true,
+		"typeRoots": ["types"]
+	},
+	"files": ["src/index.ts"],
+	"include": ["src"],
+	"exclude": ["node_modules"]
 }

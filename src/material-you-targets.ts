@@ -1,5 +1,5 @@
 import { oklch } from "culori";
-import { ColorScheme, ColorSwatch, ShadeNames } from "./types";
+import { ColorScheme, ColorSwatch, ShadeNames } from "./types.js";
 
 const LIGHTNESS_MAP: Record<ShadeNames, number> = {
 	0: 1.0,

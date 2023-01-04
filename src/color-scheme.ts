@@ -1,5 +1,5 @@
 import { formatHex, oklch } from "culori";
-import { getMaterialYouTargets } from "./material-you-targets";
+import { getMaterialYouTargets } from "./material-you-targets.js";
 import {
 	ColorScheme,
 	ColorSwatch,
@@ -7,8 +7,8 @@ import {
 	HexColor,
 	MonetColorScheme,
 	MonetColorSwatch,
-} from "./types";
-import { clampNumber } from "./utils";
+} from "./types.js";
+import { clampNumber } from "./utils.js";
 
 const ACCENT3_HUE_SHIFT = 60;
 

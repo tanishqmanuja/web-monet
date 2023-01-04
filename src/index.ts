@@ -1,7 +1,7 @@
-export { getColorScheme } from "./lib/color-scheme";
+export { getColorScheme } from "./color-scheme.js";
 export type {
 	MonetColorScheme as ColorScheme,
 	MonetColorSwatch as ColorSwatch,
-	ShadeNames,
-	SwatchNames,
-} from "./lib/types";
+	ShadeNames as ShadeName,
+	SwatchNames as SwatchName,
+} from "./types.js";
